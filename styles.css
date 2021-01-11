@@ -75,6 +75,7 @@ header {
 .main2 a img {
   width: 70px;
   height: 60px;
+  border-radius: 35px;
 }
 footer{
     margin: 0 auto;
