@@ -1,50 +1,44 @@
-body{
-    overflow-x:hidden ;
-    background-image: url(./img/img1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  
-    
+body {
+  overflow-x: hidden;
+  background-image: url(./img/img1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-header{
-    display: flex;
-    justify-content: center;
-    margin: 10% auto;
-    font-size: 80px;
+header {
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+  font-size: 80px;
 }
-.section{
-    display: flex;
-   justify-content: center;
-   margin: 0 auto;
- 
+.section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
-.section input{
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 700px;
-    height: 50px;
+.section input {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 700px;
+  height: 50px;
 }
-.section button{
-    margin-left: 20px;
-    width: 100px;
-    border-radius: 5px;
-background-color: green;
-color: white;
-font-size: 20px;
+.section button {
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
 }
-.main{
-    max-width: 876px;
-    display: flex;
-    justify-content: space-between;
-    margin: 5% auto;
-   
+.main1,
+.main2 {
+  max-width: 876px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% auto;
 }
-.main div{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.main a img{
-    width: 70px;height: 60px;
-   
+
+.main1 a img,
+.main2 a img {
+  width: 70px;
+  height: 60px;
 }
