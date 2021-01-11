@@ -50,7 +50,7 @@ footer{
     color: white;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+   
 }
 footer ul{
     list-style: none;
@@ -61,9 +61,16 @@ margin-bottom: 20px;
 font-size: 20px;
 font-family:Arial, Helvetica, sans-serif;
 }
-@media(max-width:650px){
+@media(max-width:750px){
     header ul{
 margin-right: 0;
     }
+    footer {
+       justify-content: center;
+       align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul{margin: 0 auto;}
     
 }
