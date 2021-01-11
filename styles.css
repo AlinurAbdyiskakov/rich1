@@ -31,9 +31,9 @@ header {
 }
 .main1,
 .main2 {
-  max-width: 876px;
+  max-width: 700px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 5% auto;
 }
 
